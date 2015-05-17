@@ -15,7 +15,7 @@ API
 # Components
 
 ```js
-var ReactGoogleMaps = require('react-googlemaps');
+var ReactGoogleMaps = require('react-google-maps');
 var Map = ReactGoogleMaps.Map;
 var Marker = ReactGoogleMaps.Marker;
 
@@ -23,7 +23,7 @@ var Marker = ReactGoogleMaps.Marker;
   <Marker position={...} />
 </Map>
 ```
-All components can be referenced from the root `react-googlemaps` object.
+All components can be referenced from the root `react-google-maps` object.
 
 ```js
 var GoogleMapsAPI = window.google.maps;
@@ -186,7 +186,7 @@ The only prop required is the `map` prop (the GoogleMap instance), this is autom
 
 ```js
 var React = require('react');
-var ReactGoogleMaps = require('react-googlemaps');
+var ReactGoogleMaps = require('react-google-maps');
 
 var MyMap = React.createClass({
   propTypes: {
